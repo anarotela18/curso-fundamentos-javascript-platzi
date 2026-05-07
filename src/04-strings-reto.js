@@ -50,5 +50,7 @@ function tipoDeResultadoInterpolado() {
 //   - [item2]
 // Usa template literals con saltos de línea nativos (no uses \n).
 function crearNotaMultilinea(titulo, item1, item2) {
-  
+  return `${titulo}
+  -${item1}
+  -${item2}`;
 }
